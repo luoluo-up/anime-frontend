@@ -10,48 +10,50 @@ import NavBar from '../components/nav-bar.vue';
 import Category from '../components/category.vue';
 import TopicCard from '../components/topic-card.vue';
 import { ref } from 'vue'
+// 引入图片  
+import img1 from '../assets/images/home/1.jpg';
+import img2 from '../assets/images/home/2.jpg';
+import img3 from '../assets/images/home/3.jpg';
+import img4 from '../assets/images/home/4.jpg';
+import img5 from '../assets/images/home/5.jpg';
+import img6 from '../assets/images/home/6.jpg';
+import img7 from '../assets/images/home/7.jpg';
+import img8 from '../assets/images/home/8.jpg';
+
+// 账户信息  
 const info = ref([{
     title: '约会大作战VI',
-    // 上映日期
     tips: '2.9',
-    imgUrl: '../src/assets/images/home/1.jpg'
+    imgUrl: img1
 }, {
     title: '约会大作战V',
-    // 上映日期
     tips: '1.9',
-    imgUrl: '../src/assets/images/home/2.jpg'
+    imgUrl: img2
 }, {
     title: '约会大作战IV',
-    // 上映日期
     tips: '2.19',
-    imgUrl: '../src/assets/images/home/3.jpg'
+    imgUrl: img3
 }, {
     title: '约会大作战III',
-    // 上映日期
     tips: '3.21',
-    imgUrl: '../src/assets/images/home/4.jpg'
+    imgUrl: img4
 }, {
     title: '约会大作战II',
-    // 上映日期
     tips: '6.1',
-    imgUrl: '../src/assets/images/home/5.jpg'
+    imgUrl: img5
 }, {
     title: '约会大作战',
-    // 上映日期
     tips: '1.1',
-    imgUrl: '../src/assets/images/home/6.jpg'
+    imgUrl: img6
 }, {
     title: '约会大作战OVA',
-    // 上映日期
     tips: '3.1',
-    imgUrl: '../src/assets/images/home/7.jpg'
+    imgUrl: img7
 }, {
     title: '约会大作战外传',
-    // 上映日期
     tips: '3.1',
-    imgUrl: '../src/assets/images/home/8.jpg'
-}]
-)
+    imgUrl: img8
+}]);
 </script>
 <style scoped lang="scss">
 .container {
