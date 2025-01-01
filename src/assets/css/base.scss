@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+div,
+nav {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+/* base.scss */
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px; /* 滚动条的宽度 */
+  height: 6px; /* 滚动条的高度 */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 滚动条轨道的背景色 */
+  border-radius: 10px; /* 轨道的圆角 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b6b5b5; /* 滚动条的颜色 */
+  border-radius: 10px; /* 滚动条的圆角 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 滚动条悬停时的颜色 */
+}
