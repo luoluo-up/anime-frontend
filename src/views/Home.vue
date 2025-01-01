@@ -70,8 +70,12 @@ const shuffleAndSelect = (array) => {
 };
 
 const info1 = ref(shuffleAndSelect(info.value)); // 生成 info1  
+
 // 生成可用图片数组  
-const availableImages = Array.from({ length: 10 }, (_, i) => require(`../assets/images/home/${i + 1}.jpg`));
+const availableImages = [
+    img1, img2, img3, img4, img5, img6, img7, img8,
+    // 如果有更多图片，可以继续添加  
+];
 
 // 生成 info2，包含 10 项内容，每项使用所有图片  
 const generateInfo2 = () => {
