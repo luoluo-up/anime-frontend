@@ -12,7 +12,7 @@
                     <router-link to="/TV">BD动画</router-link>
                     <router-link to="/TV">剧场版</router-link>
                     <router-link to="/TV">OVA</router-link>
-                    <router-link to="/#">更多</router-link>
+                    <router-link to="/TV">更多</router-link>
                 </div>
             </div>
             <div class="right">
@@ -26,11 +26,11 @@
         </nav>
         <div class="hidden" :class="{ 'is-active': show }">
             <router-link to="/">首页</router-link>
-            <router-link to="/#">TV动画</router-link>
-            <router-link to="/#">BD动画</router-link>
-            <router-link to="/#">剧场版</router-link>
-            <router-link to="/#">OVA</router-link>
-            <router-link to="/#">更多</router-link>
+            <router-link to="/TV">TV动画</router-link>
+            <router-link to="/TV">BD动画</router-link>
+            <router-link to="/TV">剧场版</router-link>
+            <router-link to="/TV">OVA</router-link>
+            <router-link to="/TV">更多</router-link>
         </div>
     </div>
 </template>
